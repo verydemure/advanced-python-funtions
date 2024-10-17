@@ -22,3 +22,10 @@ n2 = [4,5,6]
 
 sum = map(lambda x,y: x+y,   n1,n2)
 print(list(sum))
+
+#========================================
+
+fruits = ["apple", "banana","mango", "strawberry", "raspberry","blackberry"]
+capFruit =[fruit.capitalize() for fruit in fruits]
+
+print(capFruit)
